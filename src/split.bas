@@ -91,8 +91,8 @@ namespace strings
         if 0 > limit then ss_count -= -limit
 
         ' fill result array..
-        redim result(0 to ss_count - 1) as string
-        for ss as integer = 0 to ss_count - 1
+        redim result(0 to ss_count) as string
+        for ss as integer = 0 to ss_count
             result(ss) = mid(s, dt(ss).start + 1, dt(ss).length)
         next
 

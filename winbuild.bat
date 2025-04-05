@@ -66,3 +66,6 @@
 
 %fbc% -i inc -p lib -w all -g -exx tests/tokenize.bas
 @tests\tokenize.exe
+
+%fbc% -i inc -p lib -w all -g -exx tests/split.bas
+@tests\split.exe
